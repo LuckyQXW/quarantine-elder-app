@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+h1  {
+  font-size: 20px;
+}
+
+#microphone-btn {
+  background: url('./mic.png') no-repeat top;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  border: 0px;
+}
+
+#interim {
+  color: gray;
+  border: #ccc 1px solid;
+  padding: 1em;
+  margin: 1em;
+  width: 300px;
+}
+
+#final {
+  color: black;
+  border: #ccc 1px solid;
+  padding: 1em;
+  margin: 1em;
+  width: 300px;
+}
+
+#speech-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
